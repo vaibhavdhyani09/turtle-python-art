@@ -9,7 +9,8 @@ screen.bgcolor("black")
 artist = turtle.Turtle()
 artist.speed(0)
 artist.width(2)
-artist.hideturtle()
+artist.shape("triangle")
+# artist.hideturtle()
 
 # Number of colors and hue step
 n = 36

@@ -1,5 +1,7 @@
 from turtle import Turtle, Screen
 
+#  read the onkey functions at the bottom to learn bout movements n functioning
+
 t = Turtle()
 s = Screen()
 
