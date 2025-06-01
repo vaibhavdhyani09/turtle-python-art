@@ -9,16 +9,20 @@ screen.bgcolor("black")
 artist = turtle.Turtle()
 artist.speed(0)
 artist.width(2)
+<<<<<<< HEAD
 artist.shape("triangle")
 # artist.hideturtle()
+=======
+# artist.hideturtle()
+artist.shape("triangle')
+>>>>>>> fbb753170b894bf2c5d18a5d18bdafabdce1fb83
 
 # Number of colors and hue step
 n = 36
 hue = 0
 
-# Artistic pattern
 for i in range(360):
-    # Set the color using HSV to RGB conversion for rainbow effect
+    
     color = colorsys.hsv_to_rgb(hue, 1, 1)
     artist.pencolor(color)
     artist.forward(i * 3 / n + i)
@@ -30,5 +34,4 @@ for i in range(360):
 
     hue += 0.005  # Slightly shift the hue
 
-# Exit on click
 screen.exitonclick()
